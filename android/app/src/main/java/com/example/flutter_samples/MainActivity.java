@@ -13,7 +13,8 @@ public class MainActivity extends FlutterActivity {
     super.onCreate(savedInstanceState);
     //make transparent status bar
     getWindow().setStatusBarColor(0x00000000);
-    GeneratedPluginRegistrant.registerWith(this); 
+    GeneratedPluginRegistrant.registerWith(this);
+    // test
     //Remove full screen flag after load
     ViewTreeObserver vto = getFlutterView().getViewTreeObserver();
     vto.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
